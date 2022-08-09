@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <div className='py-8'>
+            <div className='py-8 '>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>About me</p>               
             </div>
-            <p className='text-xl mt-20'>
+            <p className='text-xl mb-10'>
             “If you can’t fly, then run. If you can’t run, then walk. If you can’t walk, then crawl. But whatever you do, you have to keep moving forward” -Martin Luther King Jr.
             </p>
             <br />
@@ -20,7 +20,7 @@ const About = () => {
             </p>
             <br />
 
-            <p className='text-xl'>
+            <p className='text-xl mb-11'>
             Here I am, developing.. My self and my coding.
 
             </p>
