@@ -22,12 +22,12 @@ const Home = () => {
                 <p className='py-4 text-gray-500 max-w-md'>I have 2 years experience in developing websites. I'm self taught and fast-learner. Currently
                    I love to work on web application using HTML, CSS, JS and React. 
                 </p>
-                <div className='flex justify-center md:block'>
+                <div className='flex justify-center md:block '>
                     <Link to='portfolio' smooth duration={500}>
                     
-                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:translate-y-1 hover:scale-95 duration-200 z-10 '>
+                    <button className='group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:translate-y-1 hover:scale-95 duration-200'>
                         Portfolio
-                        <span className='group-hover:rotate-90 duration-300 z-10'>
+                        <span className='group-hover:rotate-90 duration-300'>
                             <RiArrowRightSLine size={25} className='ml-1'/>                   
                         </span>
                     </button>
