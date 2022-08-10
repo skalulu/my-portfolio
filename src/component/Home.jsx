@@ -8,7 +8,7 @@ const Home = () => {
     
     return (
     <>
-  <div class="relative w-full max-w-lg">
+  <div class="relative w-full max-w-lg ">
     <div class="absolute top-20 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-sm opacity-70 animate-blob"></div>
     <div class="absolute top-25 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-sm opacity-70 animate-blob animation-delay-2000"></div>
     <div class="absolute top-34 left-5 w-72 h-72 bg-cyan-300 rounded-full mix-blend-multiply filter blur-sm opacity-70 animate-blob animation-delay-4000"></div>
